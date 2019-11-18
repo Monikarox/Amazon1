@@ -1,83 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="1" failed="1" ignored="2" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49282" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:47Z">
+  <suite name="Suite" duration-ms="73526" started-at="2019-11-18T13:05:45Z" finished-at="2019-11-18T13:06:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49282" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:47Z">
+    <test name="ChromeTest" duration-ms="62245" started-at="2019-11-18T13:05:45Z" finished-at="2019-11-18T13:06:47Z">
       <class name="tests.Headless">
-        <test-method status="PASS" signature="setUpF(java.lang.String)[pri:0, instance:tests.Headless@4387b79e]" name="setUpF" is-config="true" duration-ms="9165" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:07Z">
+        <test-method status="PASS" signature="setUpF(java.lang.String)[pri:0, instance:tests.Headless@2805c96b]" name="setUpF" is-config="true" duration-ms="33949" started-at="2019-11-18T13:05:45Z" finished-at="2019-11-18T13:06:19Z">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpF -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.Headless@4387b79e]" name="homepagesetup" is-config="true" duration-ms="34" started-at="2019-11-18T12:31:07Z" depends-on-methods="basetest.HeadLessBase.setUpF" finished-at="2019-11-18T12:31:07Z">
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.Headless@2805c96b]" name="homepagesetup" is-config="true" duration-ms="35" started-at="2019-11-18T13:06:19Z" depends-on-methods="basetest.HeadLessBase.setUpF" finished-at="2019-11-18T13:06:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.Headless@4387b79e]" name="initLogger" is-config="true" duration-ms="2" started-at="2019-11-18T12:31:07Z" finished-at="2019-11-18T12:31:07Z">
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.Headless@2805c96b]" name="initLogger" is-config="true" duration-ms="3" started-at="2019-11-18T13:06:19Z" finished-at="2019-11-18T13:06:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLogger -->
-        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.Headless@4387b79e]" name="getProfileTest" duration-ms="21529" started-at="2019-11-18T12:31:07Z" finished-at="2019-11-18T12:31:28Z">
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.Headless@2805c96b]" name="getProfileTest" duration-ms="17854" started-at="2019-11-18T13:06:19Z" finished-at="2019-11-18T13:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProfileTest -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="3" started-at="2019-11-18T12:31:28Z" finished-at="2019-11-18T12:31:28Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@2805c96b]" name="fail" is-config="true" duration-ms="1" started-at="2019-11-18T13:06:37Z" finished-at="2019-11-18T13:06:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=Headless.getProfileTest()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
+                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=Headless.getProfileTest()[pri:0, instance:tests.Headless@2805c96b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.Headless@4387b79e]" name="selectMobile" duration-ms="10309" started-at="2019-11-18T12:31:28Z" depends-on-methods="tests.Headless.getProfileTest" finished-at="2019-11-18T12:31:39Z">
+        <test-method status="FAIL" signature="selectMobile()[pri:0, instance:tests.Headless@2805c96b]" name="selectMobile" duration-ms="10039" started-at="2019-11-18T13:06:37Z" depends-on-methods="tests.Headless.getProfileTest" finished-at="2019-11-18T13:06:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Gift Cards')]"}
+  (Session info: headless chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1a6dd52c78541ee9bdbf116e28d2cdb
+*** Element info: {Using=xpath, value=//a[contains(text(),'Gift Cards')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Gift Cards')]"}
+  (Session info: headless chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a1a6dd52c78541ee9bdbf116e28d2cdb
+*** Element info: {Using=xpath, value=//a[contains(text(),'Gift Cards')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at pages.Mobiles.getMobile(Mobiles.java:67)
+at tests.Headless.selectMobile(Headless.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMobile -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:39Z" finished-at="2019-11-18T12:31:39Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@2805c96b]" name="fail" is-config="true" duration-ms="336" started-at="2019-11-18T13:06:47Z" finished-at="2019-11-18T13:06:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=Headless.selectMobile()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
+                <![CDATA[[TestResult name=selectMobile status=FAILURE method=Headless.selectMobile()[pri:0, instance:tests.Headless@2805c96b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="cart()[pri:0, instance:tests.Headless@4387b79e]" name="cart" duration-ms="8214" started-at="2019-11-18T12:31:39Z" depends-on-methods="tests.Headless.selectMobile" finished-at="2019-11-18T12:31:47Z">
+        <test-method status="SKIP" signature="cart()[pri:0, instance:tests.Headless@2805c96b]" name="cart" duration-ms="0" started-at="2019-11-18T13:06:47Z" depends-on-methods="tests.Headless.selectMobile" finished-at="2019-11-18T13:06:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Headless.cart()[pri:0, instance:tests.Headless@2805c96b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Headless.cart()[pri:0, instance:tests.Headless@2805c96b] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:47Z" finished-at="2019-11-18T12:31:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cart status=SUCCESS method=Headless.cart()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Headless@4387b79e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:47Z" finished-at="2019-11-18T12:31:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Headless@2805c96b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-18T13:06:59Z" finished-at="2019-11-18T13:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="release()[pri:0, instance:tests.Headless@4387b79e]" name="release" is-config="true" duration-ms="209" started-at="2019-11-18T12:31:47Z" depends-on-methods="basetest.HeadLessBase.tearDown" finished-at="2019-11-18T12:31:47Z">
+        <test-method status="PASS" signature="release()[pri:0, instance:tests.Headless@2805c96b]" name="release" is-config="true" duration-ms="192" started-at="2019-11-18T13:06:59Z" depends-on-methods="basetest.HeadLessBase.tearDown" finished-at="2019-11-18T13:06:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- release -->
       </class> <!-- tests.Headless -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="73526" started-at="2019-11-18T13:05:45Z" finished-at="2019-11-18T13:06:59Z">
+      <class name="tests.Headless">
+        <test-method status="PASS" signature="setUpF(java.lang.String)[pri:0, instance:tests.Headless@7fc229ab]" name="setUpF" is-config="true" duration-ms="36846" started-at="2019-11-18T13:05:45Z" finished-at="2019-11-18T13:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpF -->
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.Headless@7fc229ab]" name="homepagesetup" is-config="true" duration-ms="4" started-at="2019-11-18T13:06:22Z" depends-on-methods="basetest.HeadLessBase.setUpF" finished-at="2019-11-18T13:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagesetup -->
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.Headless@7fc229ab]" name="initLogger" is-config="true" duration-ms="0" started-at="2019-11-18T13:06:22Z" finished-at="2019-11-18T13:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogger -->
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.Headless@7fc229ab]" name="getProfileTest" duration-ms="19042" started-at="2019-11-18T13:06:22Z" finished-at="2019-11-18T13:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileTest -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@7fc229ab]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T13:06:41Z" finished-at="2019-11-18T13:06:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=Headless.getProfileTest()[pri:0, instance:tests.Headless@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.Headless@7fc229ab]" name="selectMobile" duration-ms="9289" started-at="2019-11-18T13:06:41Z" depends-on-methods="tests.Headless.getProfileTest" finished-at="2019-11-18T13:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMobile -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@7fc229ab]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T13:06:50Z" finished-at="2019-11-18T13:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=Headless.selectMobile()[pri:0, instance:tests.Headless@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:tests.Headless@7fc229ab]" name="cart" duration-ms="8336" started-at="2019-11-18T13:06:50Z" depends-on-methods="tests.Headless.selectMobile" finished-at="2019-11-18T13:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@7fc229ab]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T13:06:59Z" finished-at="2019-11-18T13:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=Headless.cart()[pri:0, instance:tests.Headless@7fc229ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- tests.Headless -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>

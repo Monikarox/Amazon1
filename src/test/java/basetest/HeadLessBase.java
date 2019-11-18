@@ -34,7 +34,7 @@ protected WebDriver driver;
 	 FirefoxOptions options0 =new FirefoxOptions();
 	 options0.setHeadless(true);
 	 driver = new FirefoxDriver(options0);
-	 System.out.println(" \n FireFox HeadLess Browser invoked");
+	 System.out.println(" \n FireFox HeadLess Browser ");
 	
 
 	if(browser!=null)
@@ -57,12 +57,12 @@ protected WebDriver driver;
         System.out.println(" \n Chrome HeadLess Browser invoked");
 
 	}
-	else if(browser.equalsIgnoreCase("htmlunit")) {
-		
-		 System.setProperty(PropertyFile.getProperty("driverC"), PropertyFile.getProperty("pathC"));
-		 driver=new HtmlUnitDriver();
-
-	}
+//	else if(browser.equalsIgnoreCase("htmlunit")) {
+//		
+//		 System.setProperty(PropertyFile.getProperty("driverC"), PropertyFile.getProperty("pathC"));
+//		 driver=new HtmlUnitDriver();
+//
+//	}
 				
 	else {
 		throw new Exception("Browser not correct");
