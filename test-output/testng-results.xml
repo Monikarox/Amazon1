@@ -2,84 +2,82 @@
 <testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63247" started-at="2019-11-18T09:48:05Z" finished-at="2019-11-18T09:49:09Z">
+  <suite name="Default suite" duration-ms="49282" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:47Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="63247" started-at="2019-11-18T09:48:05Z" finished-at="2019-11-18T09:49:09Z">
-      <class name="tests.SmartWatch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="setUp" is-config="true" duration-ms="25487" started-at="2019-11-18T09:48:05Z" finished-at="2019-11-18T09:48:31Z">
+    <test name="Default test" duration-ms="49282" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:47Z">
+      <class name="tests.Headless">
+        <test-method status="PASS" signature="setUpF(java.lang.String)[pri:0, instance:tests.Headless@4387b79e]" name="setUpF" is-config="true" duration-ms="9165" started-at="2019-11-18T12:30:58Z" finished-at="2019-11-18T12:31:07Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="homepagesetup" is-config="true" duration-ms="28" started-at="2019-11-18T09:48:31Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-18T09:48:31Z">
+        </test-method> <!-- setUpF -->
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.Headless@4387b79e]" name="homepagesetup" is-config="true" duration-ms="34" started-at="2019-11-18T12:31:07Z" depends-on-methods="basetest.HeadLessBase.setUpF" finished-at="2019-11-18T12:31:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="initLogger" is-config="true" duration-ms="3" started-at="2019-11-18T09:48:31Z" finished-at="2019-11-18T09:48:31Z">
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.Headless@4387b79e]" name="initLogger" is-config="true" duration-ms="2" started-at="2019-11-18T12:31:07Z" finished-at="2019-11-18T12:31:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLogger -->
-        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="getProfileTest" duration-ms="19760" started-at="2019-11-18T09:48:31Z" finished-at="2019-11-18T09:48:51Z">
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.Headless@4387b79e]" name="getProfileTest" duration-ms="21529" started-at="2019-11-18T12:31:07Z" finished-at="2019-11-18T12:31:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProfileTest -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="fail" is-config="true" duration-ms="1" started-at="2019-11-18T09:48:51Z" finished-at="2019-11-18T09:48:51Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="3" started-at="2019-11-18T12:31:28Z" finished-at="2019-11-18T12:31:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:tests.SmartWatch@6e75aa0d] output={null}]]]>
+                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=Headless.getProfileTest()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="selectMobile" duration-ms="9065" started-at="2019-11-18T09:48:51Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-18T09:49:00Z">
+        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.Headless@4387b79e]" name="selectMobile" duration-ms="10309" started-at="2019-11-18T12:31:28Z" depends-on-methods="tests.Headless.getProfileTest" finished-at="2019-11-18T12:31:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMobile -->
-        <test-method status="PASS" signature="cart()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="cart" duration-ms="8880" started-at="2019-11-18T09:49:00Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-18T09:49:09Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:39Z" finished-at="2019-11-18T12:31:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=Headless.selectMobile()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:tests.Headless@4387b79e]" name="cart" duration-ms="8214" started-at="2019-11-18T12:31:39Z" depends-on-methods="tests.Headless.selectMobile" finished-at="2019-11-18T12:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T09:49:00Z" finished-at="2019-11-18T09:49:00Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Headless@4387b79e]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:47Z" finished-at="2019-11-18T12:31:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d] output={null}]]]>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=Headless.cart()[pri:0, instance:tests.Headless@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T09:49:09Z" finished-at="2019-11-18T09:49:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cart status=SUCCESS method=SmartWatch.cart()[pri:0, instance:tests.SmartWatch@6e75aa0d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-18T09:49:09Z" finished-at="2019-11-18T09:49:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Headless@4387b79e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-18T12:31:47Z" finished-at="2019-11-18T12:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="release()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="release" is-config="true" duration-ms="213" started-at="2019-11-18T09:49:09Z" depends-on-methods="basetest.TestBase.tearDown" finished-at="2019-11-18T09:49:09Z">
+        <test-method status="PASS" signature="release()[pri:0, instance:tests.Headless@4387b79e]" name="release" is-config="true" duration-ms="209" started-at="2019-11-18T12:31:47Z" depends-on-methods="basetest.HeadLessBase.tearDown" finished-at="2019-11-18T12:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- release -->
-      </class> <!-- tests.SmartWatch -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.Headless -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
