@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4" parallel="tests">
+
+
+<!-- 
+ <test name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="tests.SmartWatch" />
+		</classes>
+	</test>
+	
+	 -->
+	
+	
+	
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="tests.Reviews" />
+		</classes>
+	</test>
+
+<!-- 	
+	<test name="OperaTest">
+		<parameter name="browser" value="Opera" />
+		<classes>
+			<class name="tests.SmartWatch" />
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="tests.SmartWatch" />
+		</classes>
+	</test>
+
+ -->
+
+ 
+ 
+ 
+ 
+ 
+ <!-- 
+	<test name="InternetExplorerTest">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="tests.SmartWatch" />
+
+		</classes>
+
+	</test> 
+  -->
+ 
+<!--   
+ 	<test name="SafariTest">
+		<parameter name="browser" value="Safari" />
+		<classes>
+			<class name="tests.SmartWatch" />
+
+		</classes>
+
+	</test>
+ -->
+<!--  
+ <test name="PhantomTest">
+		<parameter name="browser" value="Phantum" />
+		<classes>
+			<class name="tests.SmartWatch" />
+
+		</classes>
+
+	</test>
+	 -->
+</suite> <!-- Suite -->
