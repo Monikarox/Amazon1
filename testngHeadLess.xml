@@ -14,16 +14,16 @@
 	</test>
 	 
 
-<!-- 
+
  <test name="ChromeTest">
 		<parameter name="browser" value="Chrome" />
 		<classes>
 			<class name="tests.Headless" />
 		</classes>
 	</test>
-	 -->
+
 	
-	<!--
+
 	
 	 <test name="HtmlUnitTest">
 		<parameter name="browser" value="HtmlUnit" />
@@ -31,7 +31,7 @@
 			<class name="tests.Headless" />
 		</classes>
 	</test>
-	 -->
+
 	
 	
 </suite> <!-- Suite -->

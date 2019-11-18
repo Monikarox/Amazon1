@@ -125,6 +125,7 @@
 	<version>2.19.1</version>
 	<configuration>
 	   <suiteXmlFiles>testng.xml</suiteXmlFiles>
+	    <suiteXmlFiles>testngHeadLess.xml</suiteXmlFiles>
 	</configuration>
 
 	
