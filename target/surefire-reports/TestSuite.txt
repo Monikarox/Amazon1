@@ -1,10 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 17.577 sec <<< FAILURE! - in TestSuite
-homepagesetup(tests.Headless)  Time elapsed: 16.188 sec  <<< FAILURE!
+Tests run: 20, Failures: 3, Errors: 0, Skipped: 17, Time elapsed: 44.543 sec <<< FAILURE! - in TestSuite
+setUpF(tests.Headless)  Time elapsed: 10.1 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/htmlunit/HtmlUnitDriver
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.htmlunit.HtmlUnitDriver
+
+homepagesetup(tests.Headless)  Time elapsed: 32.986 sec  <<< FAILURE!
 java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
 	at tests.Headless.homepagesetup(Headless.java:36)
 Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WrapsElement
+	at tests.Headless.homepagesetup(Headless.java:36)
+
+homepagesetup(tests.Headless)  Time elapsed: 44.373 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
 	at tests.Headless.homepagesetup(Headless.java:36)
 
