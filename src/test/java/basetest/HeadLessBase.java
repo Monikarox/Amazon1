@@ -12,6 +12,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -23,10 +24,20 @@ protected WebDriver driver;
 	
 
 @BeforeTest
-@Parameters("browser")
-	public void setUpF(String browser) throws Exception {
+@Parameters({"browser"}) 
+	public void setUpF(@Optional String browser) throws Exception {
+	
+	String driverChrome = PropertyFile.getProperty("driverC"),pathChrome = PropertyFile.getProperty("pathC");
 	
 
+	 System.setProperty(PropertyFile.getProperty("driverF"), PropertyFile.getProperty("pathF")); 
+	 FirefoxOptions options0 =new FirefoxOptions();
+	 options0.setHeadless(true);
+	 driver = new FirefoxDriver(options0);
+	 System.out.println(" \n FireFox HeadLess Browser invoked");
+	
+
+	if(browser!=null)
 	if (browser.equalsIgnoreCase("firefox")) {
 
 		 System.setProperty(PropertyFile.getProperty("driverF"), PropertyFile.getProperty("pathF")); 
@@ -39,7 +50,7 @@ protected WebDriver driver;
 	}
 	else if(browser.equalsIgnoreCase("chrome")) {
 	
-        System.setProperty(PropertyFile.getProperty("driverC"), PropertyFile.getProperty("pathC"));
+		System.setProperty(driverChrome, pathChrome);
 	    ChromeOptions chromeOptions = new ChromeOptions();
 	    chromeOptions.setHeadless(true);
 	    driver = new ChromeDriver(chromeOptions);
@@ -53,7 +64,9 @@ protected WebDriver driver;
 
 	}
 				
-	else throw new Exception("Browser not correct");
+	else {
+		throw new Exception("Browser not correct");
+		}
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	

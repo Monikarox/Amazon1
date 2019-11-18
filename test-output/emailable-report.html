@@ -8,58 +8,13 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">PhantomTest</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">58</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">53,431</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PhantomTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.SmartWatch</td><td><a href="#m0">setUp</a></td><td rowspan="1">1574061227203</td><td rowspan="1">28</td></tr><tr><th colspan="4">PhantomTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">tests.SmartWatch</td><td><a href="#m1">fail</a></td><td rowspan="1">1574061227251</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">homepagesetup</a></td><td rowspan="1">1574061227237</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">initLogger</a></td><td rowspan="1">1574061227244</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">release</a></td><td rowspan="1">1574061227291</td><td rowspan="1">0</td></tr><tr><th colspan="4">PhantomTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.SmartWatch</td><td><a href="#m5">cart</a></td><td rowspan="1">1574061227257</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">getProfileTest</a></td><td rowspan="1">1574061227250</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">selectMobile</a></td><td rowspan="1">1574061227255</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.Headless</td><td><a href="#m0">cart</a></td><td rowspan="1">1574065364887</td><td rowspan="1">7945</td></tr><tr class="passedeven"><td><a href="#m1">getProfileTest</a></td><td rowspan="1">1574065334726</td><td rowspan="1">19569</td></tr><tr class="passedeven"><td><a href="#m2">selectMobile</a></td><td rowspan="1">1574065354301</td><td rowspan="1">10581</td></tr></tbody>
 </table>
-<h2>PhantomTest</h2><h3 id="m0">tests.SmartWatch#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Phantom</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
-	at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
-	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:99)
-	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:89)
-	at basetest.TestBase.setUp(TestBase.java:88)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 23 more
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.SmartWatch#fail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.SmartWatch#homepagesetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.SmartWatch#initLogger</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.SmartWatch#release</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.SmartWatch#cart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.SmartWatch#getProfileTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
-	at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
-	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:99)
-	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:89)
-	at basetest.TestBase.setUp(TestBase.java:88)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 23 more
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.SmartWatch#selectMobile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">tests.Headless#cart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.Headless#getProfileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.Headless#selectMobile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

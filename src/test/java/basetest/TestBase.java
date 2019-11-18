@@ -41,12 +41,16 @@ public class TestBase extends  ExtentReportsBaseTest {
 
 
 	@BeforeTest
-	@Parameters("browser")
-	public void setUp(String browser) throws Exception {
+	@Parameters({"browser"}) 
+	public void setUp(@ Optional String browser) throws Exception {
 		String driverFirefox = PropertyFile.getProperty("driverF"),driverPhantom=PropertyFile.getProperty("driverP") ,driverSafari=PropertyFile.getProperty("driverS"), driverIE=PropertyFile.getProperty("driverI"), driverOpera=PropertyFile.getProperty("driverO"), driverChrome = PropertyFile.getProperty("driverC"), driverEdge=PropertyFile.getProperty("driverE");
 
 		String pathFireFox = PropertyFile.getProperty("pathF"),pathPhantom= PropertyFile.getProperty("pathP"), pathSafari=PropertyFile.getProperty("pathS"),pathIE=PropertyFile.getProperty("pathI"), pathOpera=PropertyFile.getProperty("pathO"),pathChrome = PropertyFile.getProperty("pathC"), pathEdge=PropertyFile.getProperty("pathE");
-
+		
+		System.setProperty(driverChrome, pathChrome);
+		driver = new ChromeDriver();
+	
+		if(browser!=null)
 		if (browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 		//	System.setProperty(driverFirefox, pathFireFox);
@@ -102,7 +106,16 @@ public class TestBase extends  ExtentReportsBaseTest {
 			driver = new SafariDriver();
 		
 		}
-		else throw new Exception("Browser not correct");
+		
+
+		
+         else 
+         {
+         
+        	 throw new Exception("Browser not correct");
+         }
+		
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.get(PropertyFile.getProperty("url"));

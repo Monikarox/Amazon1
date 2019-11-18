@@ -78,3 +78,15 @@
 [TestNG-tests-1] INFO  pages.Login  - Right Pass :)
 [TestNG-tests-1] INFO  pages.Login  - Wrong Username!!
 [TestNG-tests-1] INFO  pages.Login  - Right Username :)
+[main] INFO  pages.Login  - Wrong Pass!!
+[main] INFO  pages.Login  - Right Pass :)
+[main] INFO  pages.Login  - Wrong Username!!
+[main] INFO  pages.Login  - Right Username :)
+[main] INFO  pages.Login  - Wrong Pass!!
+[main] INFO  pages.Login  - Right Pass :)
+[main] INFO  pages.Login  - Wrong Username!!
+[main] INFO  pages.Login  - Right Username :)
+[main] INFO  pages.Login  - Wrong Pass!!
+[main] INFO  pages.Login  - Right Pass :)
+[main] INFO  pages.Login  - Wrong Username!!
+[main] INFO  pages.Login  - Right Username :)
