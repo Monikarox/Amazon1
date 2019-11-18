@@ -9,39 +9,57 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">88,477</td><td></td><td></td></tr>
+<tr><td><a href="#t0">PhantomTest</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">58</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Reviews</td><td><a href="#m0">Menu</a></td><td rowspan="1">1574050680907</td><td rowspan="1">53543</td></tr><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.Reviews</td><td><a href="#m1">Login</a></td><td rowspan="1">1574050661659</td><td rowspan="1">19243</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PhantomTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.SmartWatch</td><td><a href="#m0">setUp</a></td><td rowspan="1">1574061227203</td><td rowspan="1">28</td></tr><tr><th colspan="4">PhantomTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">tests.SmartWatch</td><td><a href="#m1">fail</a></td><td rowspan="1">1574061227251</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">homepagesetup</a></td><td rowspan="1">1574061227237</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">initLogger</a></td><td rowspan="1">1574061227244</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">release</a></td><td rowspan="1">1574061227291</td><td rowspan="1">0</td></tr><tr><th colspan="4">PhantomTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.SmartWatch</td><td><a href="#m5">cart</a></td><td rowspan="1">1574061227257</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">getProfileTest</a></td><td rowspan="1">1574061227250</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">selectMobile</a></td><td rowspan="1">1574061227255</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>ChromeTest</h2><h3 id="m0">tests.Reviews#Menu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;ryp__star__button&apos;][5]&quot;}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3456f8d3a043a6161820f52416a402e0
-*** Element info: {Using=xpath, value=//button[@class=&apos;ryp__star__button&apos;][5]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.isEnabled(Unknown Source)
-	at pages.AddReview.getItems(AddReview.java:94)
-	at tests.Reviews.Menu(Reviews.java:70)
+<h2>PhantomTest</h2><h3 id="m0">tests.SmartWatch#setUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Phantom</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
+	at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:99)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:89)
+	at basetest.TestBase.setUp(TestBase.java:88)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.Reviews#Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.SmartWatch#fail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.SmartWatch#homepagesetup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.SmartWatch#initLogger</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.SmartWatch#release</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.SmartWatch#cart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.SmartWatch#getProfileTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
+	at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:99)
+	at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:89)
+	at basetest.TestBase.setUp(TestBase.java:88)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.SmartWatch#selectMobile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

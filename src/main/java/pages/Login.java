@@ -21,6 +21,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import utilities.AddWait;
+
 public class Login extends Page {
 
 	private final Logger log = Logger.getLogger(Login.class);
@@ -50,7 +52,7 @@ public class Login extends Page {
 
 	public void putUsername() {
 		try {
-			Thread.sleep(1000);
+			AddWait.forTime(1);
 			UserName.sendKeys("7839405080");
 		} catch (Exception e) {
 

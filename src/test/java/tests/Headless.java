@@ -20,6 +20,7 @@ import pages.Login;
 import pages.Mobiles;
 import report.ScreenshotFailed;
 
+
 public class Headless extends HeadLessBase {
 	ExtentTest logger;
 	Logger log=Logger.getLogger(Headless.class);
@@ -39,13 +40,13 @@ public class Headless extends HeadLessBase {
 
 	@BeforeClass
 	public void initLogger() {
-		//logger = extent.startTest(" HeadLess Results ");
+		logger = extent.startTest(" HeadLess Results ");
 	}
 	@AfterMethod
 	public void fail(ITestResult result) throws IOException
 	{
 		if (ITestResult.SUCCESS == result.getStatus()) {
-	        logger.log(LogStatus.PASS, result.getName() + " test case Passed");
+	        logger.log(LogStatus.PASS, result.getName() +" test case Passed");
 	 }
 
 	 else if (ITestResult.FAILURE == result.getStatus()) {
@@ -65,7 +66,6 @@ public class Headless extends HeadLessBase {
 		init.putPassword();
 	}
 	
-
 	@Test(dependsOnMethods = "getProfileTest")
 
 	public void selectMobile() throws InterruptedException

@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.AddWait;
+
 public class AddReview extends Page {
 private final Logger log = Logger.getLogger(AddReview.class);
 
@@ -65,18 +67,18 @@ private final Logger log = Logger.getLogger(AddReview.class);
 	public void getItems() throws InterruptedException {
 		HoverAndClick(driver, Menu, Menu);
 
-		Thread.sleep(1000);
+		AddWait.forTime(1);
 		echo.click();
-		Thread.sleep(1000);
+		AddWait.forTime(1);
 
 		echoPlus.click();
-		Thread.sleep(1000);
+		AddWait.forTime(1);
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", review);
 
 		HoverAndClick(driver, review, review);
-		Thread.sleep(2000);
+		AddWait.forTime(2);
 		try {
 			overallRate.click();
 		} catch (Exception e) {
@@ -103,7 +105,7 @@ private final Logger log = Logger.getLogger(AddReview.class);
 			Title.sendKeys("Awesome");
 		}
 
-		Thread.sleep(1000);
+		AddWait.forTime(1);
 		try {
 
 			submitReview.click();

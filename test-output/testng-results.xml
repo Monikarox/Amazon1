@@ -1,96 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+<testng-results skipped="3" failed="0" ignored="1" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="88477" started-at="2019-11-18T04:17:26Z" finished-at="2019-11-18T04:18:54Z">
+  <suite name="Suite" duration-ms="58" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="88477" started-at="2019-11-18T04:17:26Z" finished-at="2019-11-18T04:18:54Z">
-      <class name="tests.Reviews">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.Reviews@4f638935]" name="setUp" is-config="true" duration-ms="15147" started-at="2019-11-18T04:17:26Z" finished-at="2019-11-18T04:17:41Z">
+    <test name="PhantomTest" duration-ms="58" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
+      <class name="tests.SmartWatch">
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="setUp" is-config="true" duration-ms="28" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Phantom]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.Reviews@4f638935]" name="homepagesetup" is-config="true" duration-ms="21" started-at="2019-11-18T04:17:41Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-18T04:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.Reviews@4f638935]" name="initLogger" is-config="true" duration-ms="4" started-at="2019-11-18T04:17:41Z" finished-at="2019-11-18T04:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initLogger -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:tests.Reviews@4f638935]" name="Login" duration-ms="19243" started-at="2019-11-18T04:17:41Z" finished-at="2019-11-18T04:18:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Reviews@4f638935]" name="fail" is-config="true" duration-ms="1" started-at="2019-11-18T04:18:00Z" finished-at="2019-11-18T04:18:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=Reviews.Login()[pri:0, instance:tests.Reviews@4f638935] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="FAIL" signature="Menu()[pri:0, instance:tests.Reviews@4f638935]" name="Menu" duration-ms="53543" started-at="2019-11-18T04:18:00Z" depends-on-methods="tests.Reviews.Login" finished-at="2019-11-18T04:18:54Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ryp__star__button'][5]"}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3456f8d3a043a6161820f52416a402e0
-*** Element info: {Using=xpath, value=//button[@class='ryp__star__button'][5]}]]>
+              <![CDATA[org/openqa/selenium/browserlaunchers/Proxies]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ryp__star__button'][5]"}
-  (Session info: chrome=78.0.3904.97)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3456f8d3a043a6161820f52416a402e0
-*** Element info: {Using=xpath, value=//button[@class='ryp__star__button'][5]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.isEnabled(Unknown Source)
-at pages.AddReview.getItems(AddReview.java:94)
-at tests.Reviews.Menu(Reviews.java:70)
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:99)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:89)
+at basetest.TestBase.setUp(TestBase.java:88)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="homepagesetup" is-config="true" duration-ms="0" started-at="2019-11-18T07:13:47Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-18T07:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagesetup -->
+        <test-method status="SKIP" signature="initLogger()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="initLogger" is-config="true" duration-ms="0" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogger -->
+        <test-method status="SKIP" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="getProfileTest" duration-ms="0" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/browserlaunchers/Proxies]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/browserlaunchers/Proxies
+at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:178)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:99)
+at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:89)
+at basetest.TestBase.setUp(TestBase.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.browserlaunchers.Proxies
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileTest -->
+        <test-method status="SKIP" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="SKIP" signature="selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="selectMobile" duration-ms="0" started-at="2019-11-18T07:13:47Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-18T07:13:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -105,30 +132,45 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Menu -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.Reviews@4f638935]" name="fail" is-config="true" duration-ms="495" started-at="2019-11-18T04:18:54Z" finished-at="2019-11-18T04:18:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Menu status=FAILURE method=Reviews.Menu()[pri:0, instance:tests.Reviews@4f638935] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- selectMobile -->
+        <test-method status="SKIP" signature="cart()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="cart" duration-ms="0" started-at="2019-11-18T07:13:47Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-18T07:13:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@6e75aa0d] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Reviews@4f638935]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-18T04:18:54Z" finished-at="2019-11-18T04:18:54Z">
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-18T07:13:47Z" finished-at="2019-11-18T07:13:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="release()[pri:0, instance:tests.Reviews@4f638935]" name="release" is-config="true" duration-ms="189" started-at="2019-11-18T04:18:54Z" depends-on-methods="basetest.TestBase.tearDown" finished-at="2019-11-18T04:18:55Z">
+        <test-method status="SKIP" signature="release()[pri:0, instance:tests.SmartWatch@6e75aa0d]" name="release" is-config="true" duration-ms="0" started-at="2019-11-18T07:13:47Z" depends-on-methods="basetest.TestBase.tearDown" finished-at="2019-11-18T07:13:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- release -->
-      </class> <!-- tests.Reviews -->
-    </test> <!-- ChromeTest -->
+      </class> <!-- tests.SmartWatch -->
+    </test> <!-- PhantomTest -->
   </suite> <!-- Suite -->
 </testng-results>

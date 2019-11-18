@@ -3,7 +3,8 @@
 <suite name="Suite" thread-count="4" parallel="tests">
 
 
-<!-- 
+
+ <!-- 
  <test name="EdgeTest">
 		<parameter name="browser" value="Edge" />
 		<classes>
@@ -11,24 +12,28 @@
 		</classes>
 	</test>
 	
-	 -->
-	
+	  -->
 	
 	
 	<test name="ChromeTest">
 		<parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="tests.Reviews" />
+			<class name="tests.SmartWatch" />
 		</classes>
 	</test>
 
-<!-- 	
+ <!--  
+ 
+ 	  	
 	<test name="OperaTest">
 		<parameter name="browser" value="Opera" />
 		<classes>
 			<class name="tests.SmartWatch" />
 		</classes>
 	</test>
+	 
+	
+ 
 	
 	<test name="FirefoxTest">
 		<parameter name="browser" value="Firefox" />
@@ -37,14 +42,13 @@
 		</classes>
 	</test>
 
- -->
-
+ 
+  
  
  
  
  
  
- <!-- 
 	<test name="InternetExplorerTest">
 		<parameter name="browser" value="IE" />
 		<classes>
@@ -53,7 +57,7 @@
 		</classes>
 
 	</test> 
-  -->
+   -->
  
 <!--   
  	<test name="SafariTest">
@@ -65,14 +69,14 @@
 
 	</test>
  -->
-<!--  
+<!--   
  <test name="PhantomTest">
-		<parameter name="browser" value="Phantum" />
+		<parameter name="browser" value="Phantom" />
 		<classes>
 			<class name="tests.SmartWatch" />
 
 		</classes>
 
-	</test>
-	 -->
+	</test> -->
+	
 </suite> <!-- Suite -->

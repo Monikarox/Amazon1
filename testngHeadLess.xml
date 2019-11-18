@@ -5,14 +5,14 @@
 
 
 
-
+ 
  <test name="FireFoxTest">
 		<parameter name="browser" value="Firefox" />
 		<classes>
 			<class name="tests.Headless" />
 		</classes>
 	</test>
-	
+	 
 
 <!-- 
  <test name="ChromeTest">
@@ -21,8 +21,9 @@
 			<class name="tests.Headless" />
 		</classes>
 	</test>
+	 -->
 	
-	
+	<!--
 	
 	 <test name="HtmlUnitTest">
 		<parameter name="browser" value="HtmlUnit" />

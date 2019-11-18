@@ -14,6 +14,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.sun.xml.xsom.impl.scd.Iterators.Filter;
 
+import utilities.AddWait;
+
 public class Mobiles extends Page {
 	private final Logger log = Logger.getLogger(Mobiles.class);
 
@@ -63,16 +65,16 @@ public class Mobiles extends Page {
 	List<WebElement> list;
 	public void getMobile() throws InterruptedException {
 Card.click();
-Thread.sleep(1000);
+AddWait.forTime(1);
 buttonClose.click();
-Thread.sleep(1000);
+AddWait.forTime(1);
 load.click();
 openBal.click();
 System.out.println("Current Account Balance:  "+CurrBal.getText());
 AddDollars.sendKeys("0.50");
 CardSelect.click();
 submit.click();
-Thread.sleep(2000);
+AddWait.forTime(2);
 
 
 		

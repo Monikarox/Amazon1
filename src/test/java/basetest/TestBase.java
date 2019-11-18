@@ -76,19 +76,20 @@ public class TestBase extends  ExtentReportsBaseTest {
 		}
 		
 		
-		
-		
-		else if(browser.equalsIgnoreCase("phantom")){
-			
-			
-			DesiredCapabilities caps=new DesiredCapabilities();
-			caps.setJavascriptEnabled(true);
-			caps.setCapability(driverPhantom, pathPhantom);
-			
-			driver=new PhantomJSDriver();
-		
-			
-		}
+		/*
+		 * 
+		 * else if(browser.equalsIgnoreCase("phantom")){
+		 * 
+		 * 
+		 * DesiredCapabilities caps=new DesiredCapabilities();
+		 * caps.setJavascriptEnabled(true); caps.setCapability(driverPhantom,
+		 * pathPhantom);
+		 * 
+		 * driver=new PhantomJSDriver();
+		 * 
+		 * 
+		 * }
+		 */
 		else if(browser.equalsIgnoreCase("ie")) {
 			//	System.setProperty(driverIE, pathIE);
 				WebDriverManager.iedriver().setup();
