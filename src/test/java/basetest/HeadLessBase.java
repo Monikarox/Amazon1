@@ -30,12 +30,6 @@ protected WebDriver driver;
 	String driverChrome = PropertyFile.getProperty("driverC"),pathChrome = PropertyFile.getProperty("pathC");
 	
 
-	 System.setProperty(PropertyFile.getProperty("driverF"), PropertyFile.getProperty("pathF")); 
-	 FirefoxOptions options0 =new FirefoxOptions();
-	 options0.setHeadless(true);
-	 driver = new FirefoxDriver(options0);
-	 System.out.println(" \n FireFox HeadLess Browser ");
-	
 
 	if(browser!=null)
 	if (browser.equalsIgnoreCase("firefox")) {

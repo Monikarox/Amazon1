@@ -47,8 +47,8 @@ public class TestBase extends  ExtentReportsBaseTest {
 
 		String pathFireFox = PropertyFile.getProperty("pathF"),pathPhantom= PropertyFile.getProperty("pathP"), pathSafari=PropertyFile.getProperty("pathS"),pathIE=PropertyFile.getProperty("pathI"), pathOpera=PropertyFile.getProperty("pathO"),pathChrome = PropertyFile.getProperty("pathC"), pathEdge=PropertyFile.getProperty("pathE");
 		
-		System.setProperty(driverChrome, pathChrome);
-		driver = new ChromeDriver();
+//		System.setProperty(driverChrome, pathChrome);
+//		driver = new ChromeDriver();
 	
 		if(browser!=null)
 		if (browser.equalsIgnoreCase("firefox")) {

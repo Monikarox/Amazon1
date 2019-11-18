@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.21 sec - in TestSuite
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 16, Time elapsed: 52.382 sec <<< FAILURE! - in TestSuite
+homepagesetup(tests.SmartWatch)  Time elapsed: 38.075 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+
+homepagesetup(tests.SmartWatch)  Time elapsed: 48.502 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+
+homepagesetup(tests.SmartWatch)  Time elapsed: 48.54 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+

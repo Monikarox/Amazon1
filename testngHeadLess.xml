@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite" thread-count="4" parallel="tests">
+<suite name="HEADLESS" thread-count="2" parallel="tests">
 
 
 
 
- <test name="FireFoxTest">
+ <test name="FireFoxTest_HEADLESS">
 		<parameter name="browser" value="Firefox" />
 		<classes>
 			<class name="tests.Headless" />
@@ -22,16 +22,16 @@
 		</classes>
 	</test>
 
+ 
  -->
-
-	<!--  
+<!-- 	
 	 <test name="HtmlUnitTest">
 		<parameter name="browser" value="HtmlUnit" />
 		<classes>
 			<class name="tests.Headless" />
 		</classes>
 	</test>
-  -->
+   -->
 	
 	
 </suite> <!-- Suite -->

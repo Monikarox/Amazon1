@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="4" name="ChromeTest(failed)" parallel="tests">
-    <parameter name="browser" value="Chrome"/>
+  <test thread-count="4" name="OperaTest_TESTNG(failed)" parallel="tests">
+    <parameter name="browser" value="Opera"/>
     <classes>
-      <class name="tests.Headless">
+      <class name="tests.SmartWatch">
         <methods>
-          <include name="tearDown"/>
+          <include name="selectMobile"/>
+          <include name="initLogger"/>
           <include name="release"/>
+          <include name="homepagesetup"/>
+          <include name="fail"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="getProfileTest"/>
           <include name="cart"/>
-          <include name="setUpF"/>
-          <include name="initLogger"/>
-          <include name="fail"/>
-          <include name="homepagesetup"/>
-          <include name="selectMobile"/>
         </methods>
-      </class> <!-- tests.Headless -->
+      </class> <!-- tests.SmartWatch -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- OperaTest_TESTNG(failed) -->
 </suite> <!-- Failed suite [Suite] -->

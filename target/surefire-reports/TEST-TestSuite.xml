@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.21" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.382" tests="19" errors="0" skipped="16" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Monika_Sahu\eclipse-workspace\amazon"/>
@@ -19,16 +19,16 @@
     <property name="user.dir" value="C:\Users\Monika_Sahu\eclipse-workspace\amazon"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\MONIKA~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Monika_Sahu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3586492486692365691.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Monika_Sahu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1856698284773718015.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Monika_Sahu\AppData\Local\Microsoft\WindowsApps;C:\Users\Monika_Sahu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Monika_Sahu\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin;;C:\Users\Monika_Sahu\AppData\Roaming\npm;C:\Users\Monika_Sahu\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Monika_Sahu\AppData\Local\Microsoft\WindowsApps;C:\Users\Monika_Sahu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Monika_Sahu\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin;;C:\Users\Monika_Sahu\AppData\Roaming\npm;C:\Users\Monika_Sahu\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -42,15 +42,15 @@
     <property name="java.class.path" value="C:\Users\Monika_Sahu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_202"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_202"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\Monika_Sahu\eclipse-workspace\amazon\EMBEDDED"/>
     <property name="file.separator" value="\"/>
@@ -60,4 +60,100 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase name="homepagesetup" classname="tests.SmartWatch" time="38.075">
+    <failure message="org/openqa/selenium/WrapsElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting OperaDriver 77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}) on port 4946
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 33295
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1574086474891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MONIKA~1\\AppData\\Local\\Temp\\rust_mozprofilePx2yLY"
+[1574086476.747][WARNING]: Timed out connecting to Chrome, retrying...
+1574086477243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574086477244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574086477244	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Nov 18, 2019 7:44:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 18, 2019 7:44:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Parent 46604, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 45364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 45364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x360059,name=PContent::Msg_ProvideAnonymousTemporaryFile) Closed channel: cannot send/recv
+
+1574086499269	Marionette	INFO	Listening on port 59002
+1574086499567	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 18, 2019 7:45:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homepagesetup" classname="tests.SmartWatch" time="48.502">
+    <failure message="org/openqa/selenium/WrapsElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+</failure>
+    <system-err><![CDATA[[1574086518.420][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="homepagesetup" classname="tests.SmartWatch" time="48.54">
+    <failure message="org/openqa/selenium/WrapsElement" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/WrapsElement
+	at tests.SmartWatch.homepagesetup(SmartWatch.java:31)
+</failure>
+  </testcase>
+  <testcase name="initLogger" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initLogger" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initLogger" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="0">
+    <skipped message="org/openqa/selenium/WrapsElement"/>
+  </testcase>
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="0">
+    <skipped message="org/openqa/selenium/WrapsElement"/>
+  </testcase>
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="0">
+    <skipped message="org/openqa/selenium/WrapsElement"/>
+  </testcase>
+  <testcase name="fail" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fail" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="fail" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@80503] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@3dfc5fb8] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@3712b94] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="cart" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@80503] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="cart" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@3dfc5fb8] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="cart" classname="tests.SmartWatch" time="0">
+    <skipped message="Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@3712b94] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="release" classname="tests.SmartWatch" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

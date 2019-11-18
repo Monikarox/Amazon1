@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [HEADLESS]" parallel="tests">
+  <test thread-count="2" verbose="0" name="FireFoxTest_HEADLESS(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="tests.Headless">
+        <methods>
+          <include name="tearDown"/>
+          <include name="release"/>
+          <include name="getProfileTest"/>
+          <include name="cart"/>
+          <include name="setUpF"/>
+          <include name="initLogger"/>
+          <include name="fail"/>
+          <include name="homepagesetup"/>
+          <include name="selectMobile"/>
+        </methods>
+      </class> <!-- tests.Headless -->
+    </classes>
+  </test> <!-- FireFoxTest_HEADLESS(failed) -->
+</suite> <!-- Failed suite [HEADLESS] -->
