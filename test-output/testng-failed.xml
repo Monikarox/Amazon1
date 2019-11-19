@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [HEADLESS]" parallel="tests">
+  <test thread-count="2" name="FireFoxTest_HEADLESS(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="tests.Headless">
         <methods>
@@ -17,5 +18,5 @@
         </methods>
       </class> <!-- tests.Headless -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FireFoxTest_HEADLESS(failed) -->
+</suite> <!-- Failed suite [HEADLESS] -->

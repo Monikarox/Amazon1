@@ -13,7 +13,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     	<java-version>1.8</java-version>
+		<suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>
+		<java-version>1.8</java-version>
 		<maven-compiler-source>1.8</maven-compiler-source>
 		<maven-compiler-target>1.8</maven-compiler-target>
 	</properties>
@@ -80,7 +81,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-server</artifactId>
-			<version>3.141.59</version>
+			<version>3.5.1</version>
 		</dependency>
 
 		<dependency>
@@ -90,11 +91,8 @@
 		</dependency>
 
 
-		<!-- <dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.googlecode.json-simple</groupId> <artifactId>json-simple</artifactId> 
+			<version>1.1.1</version> </dependency> -->
 
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -129,8 +127,8 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-				 <suiteXmlFile>testng.xml</suiteXmlFile> 
-			<!-- 	 	<suiteXmlFile>testngHeadLess.xml</suiteXmlFile>  -->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<!-- <suiteXmlFile>testngHeadLess.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 

@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TESTNG]" parallel="tests">
-  <test thread-count="4" verbose="0" name="ChromeTest_TESTNG(failed)" parallel="tests">
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="tests.SmartWatch">
-        <methods>
-          <include name="selectMobile"/>
-          <include name="initLogger"/>
-          <include name="release"/>
-          <include name="homepagesetup"/>
-          <include name="fail"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="getProfileTest"/>
-          <include name="cart"/>
-        </methods>
-      </class> <!-- tests.SmartWatch -->
-    </classes>
-  </test> <!-- ChromeTest_TESTNG(failed) -->
-  <test thread-count="4" verbose="0" name="OperaTest_TESTNG(failed)" parallel="tests">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [TESTNG]" parallel="tests">
+  <test thread-count="4" name="OperaTest_TESTNG(failed)" parallel="tests">
     <parameter name="browser" value="Opera"/>
     <classes>
       <class name="tests.SmartWatch">
@@ -37,4 +19,22 @@
       </class> <!-- tests.SmartWatch -->
     </classes>
   </test> <!-- OperaTest_TESTNG(failed) -->
+  <test thread-count="4" name="ChromeTest_TESTNG(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="tests.SmartWatch">
+        <methods>
+          <include name="selectMobile"/>
+          <include name="initLogger"/>
+          <include name="release"/>
+          <include name="homepagesetup"/>
+          <include name="fail"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getProfileTest"/>
+          <include name="cart"/>
+        </methods>
+      </class> <!-- tests.SmartWatch -->
+    </classes>
+  </test> <!-- ChromeTest_TESTNG(failed) -->
 </suite> <!-- Failed suite [TESTNG] -->
