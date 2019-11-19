@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="2" ignored="3" total="12" passed="5">
+<testng-results skipped="1" failed="1" ignored="3" total="12" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="TESTNG" duration-ms="87407" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:43:14Z">
+  <suite name="TESTNG" duration-ms="88040" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:48:34Z">
     <groups>
     </groups>
-    <test name="FirefoxTest_TESTNG" duration-ms="67239" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:42:54Z">
+    <test name="FirefoxTest_TESTNG" duration-ms="66113" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:48:12Z">
       <class name="tests.SmartWatch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@2357d90a]" name="setUp" is-config="true" duration-ms="29917" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:42:17Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@2357d90a]" name="setUp" is-config="true" duration-ms="27296" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@2357d90a]" name="homepagesetup" is-config="true" duration-ms="34" started-at="2019-11-19T05:42:17Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:42:17Z">
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@2357d90a]" name="homepagesetup" is-config="true" duration-ms="35" started-at="2019-11-19T05:47:33Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@2357d90a]" name="initLogger" is-config="true" duration-ms="4" started-at="2019-11-19T05:42:17Z" finished-at="2019-11-19T05:42:17Z">
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@2357d90a]" name="initLogger" is-config="true" duration-ms="4" started-at="2019-11-19T05:47:34Z" finished-at="2019-11-19T05:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLogger -->
-        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@2357d90a]" name="getProfileTest" duration-ms="12859" started-at="2019-11-19T05:42:17Z" finished-at="2019-11-19T05:42:30Z">
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@2357d90a]" name="getProfileTest" duration-ms="12600" started-at="2019-11-19T05:47:34Z" finished-at="2019-11-19T05:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProfileTest -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="2" started-at="2019-11-19T05:42:30Z" finished-at="2019-11-19T05:42:30Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="2" started-at="2019-11-19T05:47:46Z" finished-at="2019-11-19T05:47:46Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.SmartWatch@2357d90a]" name="selectMobile" duration-ms="15289" started-at="2019-11-19T05:42:30Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:42:45Z">
+        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.SmartWatch@2357d90a]" name="selectMobile" duration-ms="14683" started-at="2019-11-19T05:47:46Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMobile -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:42:45Z" finished-at="2019-11-19T05:42:45Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="1" started-at="2019-11-19T05:48:01Z" finished-at="2019-11-19T05:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="cart()[pri:0, instance:tests.SmartWatch@2357d90a]" name="cart" duration-ms="9110" started-at="2019-11-19T05:42:45Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:42:54Z">
+        <test-method status="PASS" signature="cart()[pri:0, instance:tests.SmartWatch@2357d90a]" name="cart" duration-ms="11476" started-at="2019-11-19T05:48:01Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:42:54Z" finished-at="2019-11-19T05:42:54Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@2357d90a]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:12Z" finished-at="2019-11-19T05:48:12Z">
           <params>
             <param index="0">
               <value>
@@ -73,149 +73,9 @@
         </test-method> <!-- fail -->
       </class> <!-- tests.SmartWatch -->
     </test> <!-- FirefoxTest_TESTNG -->
-    <test name="ChromeTest_TESTNG" duration-ms="68288" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:42:55Z">
+    <test name="OperaTest_TESTNG" duration-ms="74557" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:48:21Z">
       <class name="tests.SmartWatch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="setUp" is-config="true" duration-ms="35950" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:42:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="homepagesetup" is-config="true" duration-ms="3" started-at="2019-11-19T05:42:23Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:42:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="initLogger" is-config="true" duration-ms="0" started-at="2019-11-19T05:42:23Z" finished-at="2019-11-19T05:42:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initLogger -->
-        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="getProfileTest" duration-ms="17065" started-at="2019-11-19T05:42:23Z" finished-at="2019-11-19T05:42:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getProfileTest -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:42:40Z" finished-at="2019-11-19T05:42:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:tests.SmartWatch@4461c7e3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="FAIL" signature="selectMobile()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="selectMobile" duration-ms="13414" started-at="2019-11-19T05:42:40Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:42:53Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=78.0.3904.97)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c3975d2fe84055c4d379db86be9191cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=78.0.3904.97)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c3975d2fe84055c4d379db86be9191cc
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at pages.Mobiles.getMobile(Mobiles.java:74)
-at tests.SmartWatch.selectMobile(SmartWatch.java:68)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectMobile -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="fail" is-config="true" duration-ms="1837" started-at="2019-11-19T05:42:53Z" finished-at="2019-11-19T05:42:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectMobile status=FAILURE method=SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@4461c7e3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fail -->
-        <test-method status="SKIP" signature="cart()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="cart" duration-ms="0" started-at="2019-11-19T05:42:55Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:42:55Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c7e3] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c7e3] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cart -->
-      </class> <!-- tests.SmartWatch -->
-    </test> <!-- ChromeTest_TESTNG -->
-    <test name="OperaTest_TESTNG" duration-ms="87407" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:43:14Z">
-      <class name="tests.SmartWatch">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@1e67a849]" name="setUp" is-config="true" duration-ms="51016" started-at="2019-11-19T05:41:47Z" finished-at="2019-11-19T05:42:38Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@1e67a849]" name="setUp" is-config="true" duration-ms="38934" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:47:45Z">
           <params>
             <param index="0">
               <value>
@@ -226,19 +86,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@1e67a849]" name="homepagesetup" is-config="true" duration-ms="1" started-at="2019-11-19T05:42:38Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:42:38Z">
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@1e67a849]" name="homepagesetup" is-config="true" duration-ms="3" started-at="2019-11-19T05:47:45Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagesetup -->
-        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@1e67a849]" name="getProfileTest" duration-ms="26038" started-at="2019-11-19T05:42:38Z" finished-at="2019-11-19T05:43:04Z">
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@1e67a849]" name="getProfileTest" duration-ms="16526" started-at="2019-11-19T05:47:45Z" finished-at="2019-11-19T05:48:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProfileTest -->
-        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@1e67a849]" name="initLogger" is-config="true" duration-ms="0" started-at="2019-11-19T05:42:38Z" finished-at="2019-11-19T05:42:38Z">
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@1e67a849]" name="initLogger" is-config="true" duration-ms="0" started-at="2019-11-19T05:47:45Z" finished-at="2019-11-19T05:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLogger -->
-        <test-method status="FAIL" signature="selectMobile()[pri:0, instance:tests.SmartWatch@1e67a849]" name="selectMobile" duration-ms="9883" started-at="2019-11-19T05:43:04Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:43:14Z">
+        <test-method status="FAIL" signature="selectMobile()[pri:0, instance:tests.SmartWatch@1e67a849]" name="selectMobile" duration-ms="18766" started-at="2019-11-19T05:48:02Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:48:20Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -248,8 +108,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
-Session ID: b2b132116068bc3e3aed1bc3649c19d2]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62468}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5c45d1f0b56265df8e33597948a5f6fb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -259,8 +119,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
-Session ID: b2b132116068bc3e3aed1bc3649c19d2
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62468}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5c45d1f0b56265df8e33597948a5f6fb
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -309,7 +169,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMobile -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@1e67a849]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:43:04Z" finished-at="2019-11-19T05:43:04Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@1e67a849]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:02Z" finished-at="2019-11-19T05:48:02Z">
           <params>
             <param index="0">
               <value>
@@ -320,7 +180,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@1e67a849]" name="fail" is-config="true" duration-ms="466" started-at="2019-11-19T05:43:14Z" finished-at="2019-11-19T05:43:14Z">
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@1e67a849]" name="fail" is-config="true" duration-ms="313" started-at="2019-11-19T05:48:20Z" finished-at="2019-11-19T05:48:21Z">
           <params>
             <param index="0">
               <value>
@@ -331,7 +191,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fail -->
-        <test-method status="SKIP" signature="cart()[pri:0, instance:tests.SmartWatch@1e67a849]" name="cart" duration-ms="0" started-at="2019-11-19T05:43:14Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:43:14Z">
+        <test-method status="SKIP" signature="cart()[pri:0, instance:tests.SmartWatch@1e67a849]" name="cart" duration-ms="0" started-at="2019-11-19T05:48:21Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:48:21Z">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@1e67a849] depends on not successfully finished methods]]>
@@ -357,15 +217,83 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method status="PASS" signature="release()[pri:0, instance:tests.SmartWatch@1e67a849]" name="release" is-config="true" duration-ms="262" started-at="2019-11-19T05:43:14Z" depends-on-methods="basetest.TestBase.tearDown" finished-at="2019-11-19T05:43:15Z">
+        <test-method status="PASS" signature="release()[pri:0, instance:tests.SmartWatch@1e67a849]" name="release" is-config="true" duration-ms="213" started-at="2019-11-19T05:48:34Z" depends-on-methods="basetest.TestBase.tearDown" finished-at="2019-11-19T05:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- release -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SmartWatch@1e67a849]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-19T05:43:14Z" finished-at="2019-11-19T05:43:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SmartWatch@1e67a849]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:34Z" finished-at="2019-11-19T05:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SmartWatch -->
     </test> <!-- OperaTest_TESTNG -->
+    <test name="ChromeTest_TESTNG" duration-ms="88040" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:48:34Z">
+      <class name="tests.SmartWatch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="setUp" is-config="true" duration-ms="40816" started-at="2019-11-19T05:47:06Z" finished-at="2019-11-19T05:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homepagesetup()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="homepagesetup" is-config="true" duration-ms="1" started-at="2019-11-19T05:47:47Z" depends-on-methods="basetest.TestBase.setUp" finished-at="2019-11-19T05:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagesetup -->
+        <test-method status="PASS" signature="initLogger()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="initLogger" is-config="true" duration-ms="1" started-at="2019-11-19T05:47:47Z" finished-at="2019-11-19T05:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogger -->
+        <test-method status="PASS" signature="getProfileTest()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="getProfileTest" duration-ms="13868" started-at="2019-11-19T05:47:47Z" finished-at="2019-11-19T05:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileTest -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:01Z" finished-at="2019-11-19T05:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:tests.SmartWatch@4461c7e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="selectMobile()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="selectMobile" duration-ms="22930" started-at="2019-11-19T05:48:01Z" depends-on-methods="tests.SmartWatch.getProfileTest" finished-at="2019-11-19T05:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMobile -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:24Z" finished-at="2019-11-19T05:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=SmartWatch.selectMobile()[pri:0, instance:tests.SmartWatch@4461c7e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:tests.SmartWatch@4461c7e3]" name="cart" duration-ms="10421" started-at="2019-11-19T05:48:24Z" depends-on-methods="tests.SmartWatch.selectMobile" finished-at="2019-11-19T05:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:tests.SmartWatch@4461c7e3]" name="fail" is-config="true" duration-ms="0" started-at="2019-11-19T05:48:34Z" finished-at="2019-11-19T05:48:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c7e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- tests.SmartWatch -->
+    </test> <!-- ChromeTest_TESTNG -->
   </suite> <!-- TESTNG -->
 </testng-results>

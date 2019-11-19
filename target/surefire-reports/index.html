@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 2 failed,  2 skipped,  5 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,  1 skipped,  7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-TESTNG" class="show-methods failed suite-TESTNG"> (show)</a> <!-- show-methods failed suite-TESTNG -->
                     </span>
                     <div class="method-list-content failed suite-TESTNG">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="selectMobile">selectMobile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="selectMobile">selectMobile</a> <!-- method navigator-link -->
@@ -119,11 +114,6 @@
                       <a href="#" panel-name="suite-TESTNG" class="show-methods skipped suite-TESTNG"> (show)</a> <!-- show-methods skipped suite-TESTNG -->
                     </span>
                     <div class="method-list-content skipped suite-TESTNG">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="cart">cart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="cart">cart</a> <!-- method navigator-link -->
@@ -145,7 +135,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="getProfileTest">getProfileTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="cart">cart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -156,6 +146,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="getProfileTest">getProfileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="getProfileTest">getProfileTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TESTNG" title="tests.SmartWatch" hash-for-method="selectMobile">selectMobile</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,46 +187,14 @@
                   </a> <!-- selectMobile -->
                   <span class="method-name">selectMobile</span>
                   <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=78.0.3904.97)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c3975d2fe84055c4d379db86be9191cc
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-	at pages.Mobiles.getMobile(Mobiles.java:74)
-	at tests.SmartWatch.selectMobile(SmartWatch.java:68)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectMobile">
-                  </a> <!-- selectMobile -->
-                  <span class="method-name">selectMobile</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=77.0.3865.120)
   (Driver info: OperaDriver=77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
-Session ID: b2b132116068bc3e3aed1bc3649c19d2
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62468}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5c45d1f0b56265df8e33597948a5f6fb
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -262,20 +230,6 @@ Session ID: b2b132116068bc3e3aed1bc3649c19d2
                   <a name="cart">
                   </a> <!-- cart -->
                   <span class="method-name">cart</span>
-                  <div class="stack-trace">java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c7e3] depends on not successfully finished methods
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 9 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cart">
-                  </a> <!-- cart -->
-                  <span class="method-name">cart</span>
                   <div class="stack-trace">java.lang.Throwable: Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@1e67a849] depends on not successfully finished methods
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -302,9 +256,9 @@ Session ID: b2b132116068bc3e3aed1bc3649c19d2
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getProfileTest">
-                  </a> <!-- getProfileTest -->
-                  <span class="method-name">getProfileTest</span>
+                  <a name="cart">
+                  </a> <!-- cart -->
+                  <span class="method-name">cart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -319,6 +273,20 @@ Session ID: b2b132116068bc3e3aed1bc3649c19d2
                   <a name="getProfileTest">
                   </a> <!-- getProfileTest -->
                   <span class="method-name">getProfileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProfileTest">
+                  </a> <!-- getProfileTest -->
+                  <span class="method-name">getProfileTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMobile">
+                  </a> <!-- selectMobile -->
+                  <span class="method-name">selectMobile</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -403,37 +371,37 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getProfileTest')
+data.setCell(0, 1, 'selectMobile')
 data.setCell(0, 2, 'tests.SmartWatch')
-data.setCell(0, 3, 26038);
+data.setCell(0, 3, 22930);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getProfileTest')
+data.setCell(1, 1, 'selectMobile')
 data.setCell(1, 2, 'tests.SmartWatch')
-data.setCell(1, 3, 17065);
+data.setCell(1, 3, 18766);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'selectMobile')
+data.setCell(2, 1, 'getProfileTest')
 data.setCell(2, 2, 'tests.SmartWatch')
-data.setCell(2, 3, 15289);
+data.setCell(2, 3, 16526);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'selectMobile')
 data.setCell(3, 2, 'tests.SmartWatch')
-data.setCell(3, 3, 13414);
+data.setCell(3, 3, 14683);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'getProfileTest')
 data.setCell(4, 2, 'tests.SmartWatch')
-data.setCell(4, 3, 12859);
+data.setCell(4, 3, 13868);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'selectMobile')
+data.setCell(5, 1, 'getProfileTest')
 data.setCell(5, 2, 'tests.SmartWatch')
-data.setCell(5, 3, 9883);
+data.setCell(5, 3, 12600);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'cart')
 data.setCell(6, 2, 'tests.SmartWatch')
-data.setCell(6, 3, 9110);
+data.setCell(6, 3, 11476);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'cart')
 data.setCell(7, 2, 'tests.SmartWatch')
-data.setCell(7, 3, 0);
+data.setCell(7, 3, 10421);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'cart')
 data.setCell(8, 2, 'tests.SmartWatch')
@@ -442,7 +410,7 @@ window.suiteTableData['TESTNG']= { tableData: data, tableDiv: 'times-div-TESTNG'
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-TESTNG">
               </div> <!-- times-div-TESTNG -->
             </div> <!-- times-div -->
@@ -494,95 +462,101 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">homepagesetup</span>
-                <span class="method-start">29917 ms</span>
+                <span class="method-start">27296 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">initLogger</span>
-                <span class="method-start">29964 ms</span>
+                <span class="method-start">27339 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getProfileTest</span>
-                <span class="method-start">29975 ms</span>
+                <span class="method-start">27347 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">homepagesetup</span>
-                <span class="method-start">35950 ms</span>
+                <span class="method-start">38934 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">initLogger</span>
-                <span class="method-start">35954 ms</span>
+                <span class="method-start">38938 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getProfileTest</span>
-                <span class="method-start">35955 ms</span>
+                <span class="method-start">38938 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fail([TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:te...)</span>
-                <span class="method-start">42834 ms</span>
+                <span class="method-start">39948 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">selectMobile</span>
-                <span class="method-start">42838 ms</span>
+                <span class="method-start">39952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">homepagesetup</span>
-                <span class="method-start">51016 ms</span>
+                <span class="method-start">40816 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">initLogger</span>
-                <span class="method-start">51018 ms</span>
+                <span class="method-start">40817 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getProfileTest</span>
-                <span class="method-start">51018 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">fail([TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:te...)</span>
-                <span class="method-start">53020 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">selectMobile</span>
-                <span class="method-start">53021 ms</span>
+                <span class="method-start">40818 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fail([TestResult name=selectMobile status=SUCCESS method=SmartWatch.selectMobile()[pri:0, instance:tests....)</span>
-                <span class="method-start">58127 ms</span>
+                <span class="method-start">54635 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">cart</span>
-                <span class="method-start">58127 ms</span>
+                <span class="method-start">54636 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">fail([TestResult name=selectMobile status=FAILURE method=SmartWatch.selectMobile()[pri:0, instance:tests....)</span>
-                <span class="method-start">66449 ms</span>
+                <span class="method-name">fail([TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:te...)</span>
+                <span class="method-start">54686 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">fail([TestResult name=cart status=SUCCESS method=SmartWatch.cart()[pri:0, instance:tests.SmartWatch@2357d...)</span>
-                <span class="method-start">67238 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectMobile</span>
+                <span class="method-start">54687 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fail([TestResult name=getProfileTest status=SUCCESS method=SmartWatch.getProfileTest()[pri:0, instance:te...)</span>
-                <span class="method-start">77057 ms</span>
+                <span class="method-start">55464 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">selectMobile</span>
-                <span class="method-start">77057 ms</span>
+                <span class="method-start">55464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">fail([TestResult name=cart status=SUCCESS method=SmartWatch.cart()[pri:0, instance:tests.SmartWatch@2357d...)</span>
+                <span class="method-start">66112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
                 <span class="method-name">fail([TestResult name=selectMobile status=FAILURE method=SmartWatch.selectMobile()[pri:0, instance:tests....)</span>
-                <span class="method-start">86940 ms</span>
+                <span class="method-start">74243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">fail([TestResult name=selectMobile status=SUCCESS method=SmartWatch.selectMobile()[pri:0, instance:tests....)</span>
+                <span class="method-start">77617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">cart</span>
+                <span class="method-start">77618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fail([TestResult name=cart status=SUCCESS method=SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c...)</span>
+                <span class="method-start">88039 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">87575 ms</span>
+                <span class="method-start">88047 ms</span>
               </div> <!-- configuration-suite after -->
               <div class="configuration-suite after">
                 <span class="method-name">release</span>
-                <span class="method-start">87575 ms</span>
+                <span class="method-start">88047 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

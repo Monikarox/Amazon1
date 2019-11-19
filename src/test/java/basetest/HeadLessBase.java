@@ -33,7 +33,7 @@ public class HeadLessBase extends ExtentReportsBaseTest {
 
 				System.setProperty(PropertyFile.getProperty("driverF"), PropertyFile.getProperty("pathF"));
 				FirefoxOptions options = new FirefoxOptions();
-				options.setHeadless(true);
+			//	options.setHeadless(true);
 				driver = new FirefoxDriver(options);
 				System.out.println(" \n FireFox HeadLess Browser invoked");
 
@@ -41,7 +41,7 @@ public class HeadLessBase extends ExtentReportsBaseTest {
 
 				System.setProperty(driverChrome, pathChrome);
 				ChromeOptions chromeOptions = new ChromeOptions();
-				chromeOptions.setHeadless(true);
+			//	chromeOptions.setHeadless(true);
 				driver = new ChromeDriver(chromeOptions);
 				System.out.println(" \n Chrome HeadLess Browser invoked");
 

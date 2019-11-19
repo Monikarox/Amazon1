@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="88.831" tests="9" errors="0" skipped="2" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="89.282" tests="9" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Monika_Sahu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5970527617119867959.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Monika_Sahu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8713055094176341563.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\Monika_Sahu\AppData\Local\Microsoft\WindowsApps;C:\Users\Monika_Sahu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Monika_Sahu\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2019.2.1\bin;;C:\Users\Monika_Sahu\AppData\Roaming\npm;C:\Users\Monika_Sahu\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,26 +60,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="getProfileTest" classname="tests.SmartWatch" time="6.881"/>
-  <testcase name="getProfileTest" classname="tests.SmartWatch" time="2.002"/>
-  <testcase name="getProfileTest" classname="tests.SmartWatch" time="18.929"/>
-  <testcase name="selectMobile" classname="tests.SmartWatch" time="5.106"/>
-  <testcase name="selectMobile" classname="tests.SmartWatch" time="8.323">
-    <failure message="element not interactable&#10;  (Session info: chrome=78.0.3904.97)&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c3975d2fe84055c4d379db86be9191cc" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=78.0.3904.97)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c3975d2fe84055c4d379db86be9191cc
-	at tests.SmartWatch.selectMobile(SmartWatch.java:68)
-</failure>
-    <system-out><![CDATA[Current Account Balance:  $0.50
-]]></system-out>
-  </testcase>
-  <testcase name="selectMobile" classname="tests.SmartWatch" time="9.884">
-    <failure message="element not interactable&#10;  (Session info: chrome=77.0.3865.120)&#10;  (Driver info: OperaDriver=77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.opera.OperaDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}&#10;Session ID: b2b132116068bc3e3aed1bc3649c19d2" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="1.012"/>
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="0.05"/>
+  <testcase name="getProfileTest" classname="tests.SmartWatch" time="0.777"/>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="13.817"/>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="18.779">
+    <failure message="element not interactable&#10;  (Session info: chrome=77.0.3865.120)&#10;  (Driver info: OperaDriver=77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;EPINHYDW1414&apos;, ip: &apos;10.71.12.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.opera.OperaDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62468}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}&#10;Session ID: 5c45d1f0b56265df8e33597948a5f6fb" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
   (Session info: chrome=77.0.3865.120)
   (Driver info: OperaDriver=77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -87,18 +73,17 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'EPINHYDW1414', ip: '10.71.12.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.opera.OperaDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62067}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
-Session ID: b2b132116068bc3e3aed1bc3649c19d2
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 77.0.3865.120 (416d6d8013e9..., userDataDir: C:\Users\MONIKA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62468}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 77.0.3865.120, webStorageEnabled: true}
+Session ID: 5c45d1f0b56265df8e33597948a5f6fb
 	at tests.SmartWatch.selectMobile(SmartWatch.java:68)
 </failure>
     <system-out><![CDATA[Current Account Balance:  $0.50
 ]]></system-out>
   </testcase>
-  <testcase name="cart" classname="tests.SmartWatch" time="9.11"/>
-  <testcase name="cart" classname="tests.SmartWatch" time="0">
-    <skipped message="Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@4461c7e3] depends on not successfully finished methods"/>
-  </testcase>
+  <testcase name="selectMobile" classname="tests.SmartWatch" time="22.152"/>
+  <testcase name="cart" classname="tests.SmartWatch" time="10.647"/>
   <testcase name="cart" classname="tests.SmartWatch" time="0">
     <skipped message="Method SmartWatch.cart()[pri:0, instance:tests.SmartWatch@1e67a849] depends on not successfully finished methods"/>
   </testcase>
+  <testcase name="cart" classname="tests.SmartWatch" time="10.422"/>
 </testsuite>
